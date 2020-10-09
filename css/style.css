@@ -1,0 +1,50 @@
+:root {
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(/images/angelaYu.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  /* background-color: #C956F7; */
+
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.main-content {
+  max-width: 600px;
+  margin: 5em auto;
+  overflow: hidden;
+  padding: 2em;
+  background-color: #fdfdff;
+  border-radius: 0.5em;
+  box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+}
+
+/* a:link,
+a:visited {
+  color: #f7f7f7;
+  text-decoration: none;
+} */
+
+
+
+
+@media (max-width: 700px) {
+  .main-content {
+    margin: 0 auto;
+    width: auto;
+  }
+}
