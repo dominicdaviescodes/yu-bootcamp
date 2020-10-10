@@ -39,6 +39,11 @@ a:visited {
   text-decoration: none;
 } */
 
+section img {
+  width: 95%;
+  padding: 25px;
+}
+
 @media (max-width: 700px) {
   .main-content {
     margin: 0 auto;
