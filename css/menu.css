@@ -142,3 +142,8 @@
   transition: color 0.4s ease;
 
 }
+
+h2 {
+  color: #fff;
+  text-decoration: underline;
+}
