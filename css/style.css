@@ -51,6 +51,16 @@ h2 {
 
 hr {
   margin: 25px 0;
+  height: 2px;
+}
+
+.hr-dotted {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 8px;
+  width: 10%;
+  margin: 20px auto;
 }
 
 h4 {
@@ -97,6 +107,7 @@ input {
   font-size: 16px;
   margin: 5px;
 }
+
 
 @media (max-width: 700px) {
   .main-content {
