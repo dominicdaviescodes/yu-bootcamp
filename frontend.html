@@ -25,7 +25,7 @@
             <li><a href="index.html">Home</a> </li>
             <li><a href="frontend.html">Front-End</a> </li>
             <li><a href="html5.html">HTML Personal Site</a> </li>
-            <li><a href="">CSS</a> </li>
+            <li><a href="css1.html">CSS</a></li>
             <li><a href="">Bootstrap</a> </li>
           </ul>
         </div>
@@ -67,6 +67,39 @@
     <h3>How to Type Emojis</h3>
     <p>Press the WIN + . (full stop) keyboard shortcut, or else the WIN + ; (semicolon). Either will open an emoji
       picker over the text field.</p>
+    <h3>HTML forms</h3>
+    <p>The form element is a container for different types of input elements, such as: text fields, checkboxes, radio
+      buttons, submit buttons, etc.</p>
+    <h4>The label Element
+    </h4>
+    <ul>
+      <li>defines a label for many form elements.</li>
+      <li>element is useful for screen-reader users, because the screen-reader will read out loud the label when the
+        user
+        focus on the input element.</li>
+      <li>element also help users who have difficulty clicking on very small regions (such as radio buttons or
+        checkboxes) -
+        because when the user clicks the text within the label element, it toggles the radio button/checkbox.</li>
+      <li>The <em> for attribute of the label tag should be equal to the id attribute</em> of the input element to bind
+        them
+        together.</li>
+    </ul>
+    <p>Some examples:</p>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <input type="submit" value="Send">
+      <input type="reset">
+    </form>
+    <br>
+    <form>
+      <label>Name
+        <input id="User" name="Name" type="text" />
+      </label>
+
+    </form>
   </section>
 
 
